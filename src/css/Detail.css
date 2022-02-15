@@ -1,0 +1,157 @@
+.popup{
+    position: absolute;
+    border: 2px solid #888;
+    background-color: #fff;
+    top: 60px;
+    z-index: 99;
+    width: 980px;
+    /* display: none; */
+  }
+  .popup .header{
+    width: 100%;
+    padding: 14px 0 10px;
+    background-color: #f8f8f9;
+  }
+  .popup .header h5{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 20px;
+    margin: 0;
+  }
+  .popup .header span{
+    font-size: 11px;
+    margin-left: 9px;
+    padding-left: 10px;
+    color: #999;
+    background-image: url('https://ssl.pstatic.net/static/book/image/sprite_bullet_150401.gif');
+  }
+  .popup .layer{
+    margin: 0;
+    padding: 25px 18px;
+  }
+  .popup .layer .box{
+    width: 50%;
+    display: inline-block;
+    height: 33px;
+  }
+  .popup .layer .box span{
+    height: 27px;
+    display: inline-block;
+    padding: 6px 0 0 6px;
+    position: relative;
+  }
+  .popup .layer .box span::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 2px;
+    left: 0;
+    border-radius: 50%;
+    background-color: #888;
+    font-weight: bold;
+    top: 10px;
+  }
+  .popup .layer .box.ttl span,
+  .popup .layer .box.company span,
+  .popup .layer .box.mockcha span,
+  .popup .layer .se span{
+    width:50px;
+  }
+  .popup .layer .box.ttl input,
+  .popup .layer .box.company input,
+  .popup .layer .box.mockcha input{
+    width:395px;
+  }
+  .popup .layer .box.author span,
+  .popup .layer .box.isbn span,
+  .popup .layer .box.theme span{
+    width:100px;
+  }
+  .popup .layer .box.author input,
+  .popup .layer .box.isbn input,
+  .popup .layer .box.theme input{
+    width:351px;
+  }
+  .popup .layer .box input{
+    border: 1px solid #a5acb2;
+  }
+  .popup .layer .box.se select{
+    width: 143px;
+    height: 15px;
+    color: #666;
+    font-size: 12px;
+  }
+  .popup .layer .box.se.date{
+    width: 100%;
+  }
+  .popup .layer .box.se.date select{
+    font-size: 12px;
+    width: 81px;
+    margin-right: 4px;
+  }
+  .popup .layer .box.se.date span:not(:first-child){
+    margin: 0 5px;
+    padding:0;
+    width: auto;
+  }
+  .popup .btn_wrap{
+    margin: 20px 0 23px;
+    border-top: 1px solid #ededed;
+    text-align: center;
+    padding: 9px 0;
+    position: relative;
+  }
+  .popup .btn_wrap div{
+    width: 45px;
+    height: 26px;
+    display: inline-block;
+    margin: 0 2px;
+    cursor: pointer;
+  }
+  .popup .btn_wrap div a{
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+  }
+  .popup .btn_wrap .search{
+    background-image: url('https://ssl.pstatic.net/static/book/image/btn_search2.gif');
+  }
+  .popup .btn_wrap .close{
+    background-image: url('https://ssl.pstatic.net/static/book/image/btn_close.gif');
+  }
+  .popup .btn_wrap .clearall{
+    background-image: url('https://ssl.pstatic.net/static/book/image/btn_reset.gif');
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    top: 7px;
+    right: 0;
+  }
+  .popup .layer .bottom{
+    padding:  14px 14px 11px;
+    background-color: #fbfbfb;
+  }
+  .popup .layer .bottom>div{
+    width: 50%;
+    display: inline-block;
+  }
+  .popup .layer .bottom>div h4{
+    padding: 6px 0;
+    font-weight: bold;
+    color: #666;
+    position: relative;
+  }
+  .popup .layer .bottom>div h4::after{
+    content: '';
+    width:10px;
+    height: 1.5px;
+    background-color: #666;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .popup .layer .bottom>div p{
+    font: 11px;
+    color: #999;
+  }

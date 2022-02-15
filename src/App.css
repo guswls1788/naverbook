@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+body{
+  font: 12px '돋움',Dotum, '굴림',Gulim, AppleGothic, Sans-serif;
+}
+ul{
+  list-style-type: none;
+}
+#app{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#search-top{
+  position: relative;
+  vertical-align: center;
+  width: 980px;
+  height: 42px;
+  padding-top: 18px;
+  border-bottom: 1px solid #ccc;
+}
+#search-top img{
+  cursor: pointer;
+}
+#search-top a{
+  display: inline-block;
+}
+#search-top .logo {
+  display: inline-block;
+  margin: 0 15px 0 8px;
+}
+#search-top .logo .naver{
+  float: left;
+}
+#search-top .logo .ebook,
+#search-top .logo .audiobook{
+  margin-bottom: 3px
+}
+#search-top .logo span{
+  width: 1px;
+  height: 11px;
+  background-color: #999;
+  margin: 0 7px 7px;
+  display: inline-block;
+}
+#search-top .user {
+  float: right;
+}
+#app #search-bor{
+  display: inline-block;
+}
+#app #search-bor select{
+  width: 80px;
+  border: 0;
+  height: 30px;
+  float: left;
+  display: none;
+}
+#search-bor input{
+  width: 252px;
+  text-indent: 5px;
+  height: 17px;
+  float: left;
+  border: 0;
+  border: 3px solid #3eaf0e;
+  margin-right: 4px;
+}
+#search-bor button{
+  height: 25px;
+  background-color: #3eaf0e;
+  border: 0;
+  cursor: pointer;
+  width: 39px;
+  background-image: url('https://ssl.pstatic.net/static/book/image/btn_search.gif');
+  background-repeat: no-repeat;
+}
+#search-top .all{
+  margin-left: 2px;
+  height: 25px;
+}
+#search-top .detail{
+  background-image: url('https://ssl.pstatic.net/static/book/image/btn_detail_search.gif');
+  width: 44px;
+  display: inline-block;
+  height: 10px;
+  padding: 7px 5px 0;
+  margin-left: 6px;
+  background-repeat: no-repeat;
+}
+#search-top .detail.active{
+  background-position: 0 -25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.gnb{
+  background-image: url("https://ssl.pstatic.net/static/book/image/bg_lnb.gif");
+  width: 980px;
+  height: 38px;
+  position: relative;
+}
+.gnb ul{
+  padding:0;
+  margin: 0;
+}
+.gnb ul li{
+  float: left;
+  padding-top: 0 6px 0 9px;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.gnb ul li::after{
+  content: '';
+  position: absolute;
+  background-image: url('https://ssl.pstatic.net/static/book/image/bg_lnb_bar.gif');
+  width: 2px;
+  height: 12px;
+  top: 13px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.gnb ul li a{
+  background-image: url('https://ssl.pstatic.net/static/book/image/sp_lnb_150315.png');
+  text-decoration: none;
+  display: block;
+  height: 38px;
+  width: 125px;
+  background-repeat: no-repeat;
 }
-
-.App-link {
-  color: #61dafb;
+.gnb ul li:nth-child(2) a{
+  background-position: 0 -59px;
+  width: 69px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gnb ul li:nth-child(3) a{
+  width: 87px;
+  background-position: 0 -117px;
+}
+.gnb ul li:nth-child(4) a{
+  width: 64px;
+  background-position: -280px -116px;
 }
