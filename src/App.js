@@ -66,7 +66,7 @@ class App extends Component{
   render(){
     
     return(
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
 
       <div id="app">
  
@@ -107,7 +107,7 @@ class App extends Component{
           <Route path="/search" exact={true} element={<Search searchText={this.state.searchText} getdetail={this.getdetail} get={this.get}/>} />
         {/* </Routes> */}
         </div>
-      </ BrowserRouter>
+      </ HashRouter>
     )
   }
 }
