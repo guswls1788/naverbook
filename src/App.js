@@ -32,7 +32,7 @@ class App extends Component{
       if(searchText===''){
         alert("no")
       }else{
-        window.location.href="/#/search?bookName="+searchText+"&display="+number
+        window.location.href="/search?bookName="+searchText+"&display="+number
         // window.location.href="/"
       }
     }
@@ -66,7 +66,7 @@ class App extends Component{
   render(){
     
     return(
-      < HashRouter>
+      <BrowserRouter>
 
       <div id="app">
  
@@ -102,12 +102,12 @@ class App extends Component{
             <li><a href="#"></a></li>
           </ul>
         </div>
-        <Routes basename={process.env.PUBLIC_URL}>
+        <Routes  basename={process.env.PUBLIC_URL}>
           <Route exact path="/" exact={true} element={<Home/>} />
           <Route path="/search" exact={true} element={<Search searchText={this.state.searchText} getdetail={this.getdetail} get={this.get}/>} />
         </Routes>
         </div>
-      </ HashRouter>
+      </ BrowserRouter>
     )
   }
 }
