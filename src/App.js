@@ -102,10 +102,10 @@ class App extends Component{
             <li><a href="#"></a></li>
           </ul>
         </div>
-        {/* <Routes> */}
+        <Routes>
           <Route exact path="/" exact={true} element={<Home/>} />
           <Route path="/search" exact={true} element={<Search searchText={this.state.searchText} getdetail={this.getdetail} get={this.get}/>} />
-        {/* </Routes> */}
+        </Routes>
         </div>
       </ HashRouter>
     )
