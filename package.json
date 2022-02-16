@@ -1,5 +1,5 @@
 {
-  "homepage": "https://guswls1788.github.io/naverbook/",
+  "homepage": "https://guswls1788.github.io/naverbook/search",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -8,7 +8,6 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.0",
-   " PUBLIC_URL":"https://guswls1788.github.io/naverbook/",
     "jquery": "^3.6.0",
     "query-string": "^7.1.1",
     "react": "^17.0.2",

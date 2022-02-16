@@ -5,7 +5,7 @@ import '../css/Pagination.css'
 
 class Pagination extends Component{
     componentDidMount() {
-        // this.hi(1)
+        // this.hi(3)
         // document.getElementById("page1").style.border="1px solid #e9e9e9";
         // document.getElementById("page1").style.color="#e85028";
       }
