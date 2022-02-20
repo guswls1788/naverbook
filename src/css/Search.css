@@ -1,6 +1,7 @@
 
   #search{
       width: 980px;
+      margin: 0 auto;
   }
   #search .midle_bar{
     width: 100%;

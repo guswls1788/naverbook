@@ -66,7 +66,7 @@ class App extends Component{
   render(){
     
     return(
-      <HashRouter>
+      <>
 
       <div id="app">
  
@@ -102,12 +102,15 @@ class App extends Component{
             <li><a href="#"></a></li>
           </ul>
         </div>
+        </div>
+      <HashRouter>
+
         <Routes>
           <Route exact path="/"  element={<Home/>} />
           <Route path="/search"  element={<Search searchText={this.state.searchText} getdetail={this.getdetail} get={this.get}/>} />
         </Routes>
-        </div>
       </ HashRouter>
+      </>
     )
   }
 }
