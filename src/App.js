@@ -3,7 +3,7 @@ import './App.css';
 import { Component } from 'react/cjs/react.production.min';
 import Search from './component/Search';
 import Home from './component/Home';
-import { BrowserRouter, HashRouter,Routes,Route,Link } from 'react-router-dom';
+import { BrowserRouter, HashRouter,Routes,Route } from 'react-router-dom';
 import axios from 'axios';
 import { keyboard } from '@testing-library/user-event/dist/keyboard';
 import Detail from './component/Detail';
@@ -103,8 +103,8 @@ class App extends Component{
           </ul>
         </div>
         <Routes>
-          <Route exact path="/" exact={true} element={<Home/>} />
-          <Route path="/search" exact={true} element={<Search searchText={this.state.searchText} getdetail={this.getdetail} get={this.get}/>} />
+          <Route exact path="/"  element={<Home/>} />
+          <Route path="/search"  element={<Search searchText={this.state.searchText} getdetail={this.getdetail} get={this.get}/>} />
         </Routes>
         </div>
       </ HashRouter>
