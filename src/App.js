@@ -63,7 +63,7 @@ class App extends Component{
  
         <div id="search-top">
           <div className='logo'>
-            <a href="http://localhost:3000/"><img className='naver' src="https://ssl.pstatic.net/static/header/h1/bi_naver.gif"></img></a>
+            <a href="https://guswls1788.github.io/naverbook/"><img className='naver' src="https://ssl.pstatic.net/static/header/h1/bi_naver.gif"></img></a>
             <img className='naver' src="https://ssl.pstatic.net/static/book/image/h_book.gif"></img>
             <span></span>
             <img className='ebook' src="https://ssl.pstatic.net/static/book/image/h_ebook.gif"></img>

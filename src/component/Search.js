@@ -37,7 +37,7 @@ class Search extends Component{
         const axios_list
         =await axios({
           method:'get',
-          url:'v1/search/book.json?query='+bookName+'&display='+100,
+          url:'/v1/search/book.json?query='+bookName+'&display='+100,
           dataType:'json',
           headers:{
             "X-Naver-Client-Id":'dk5NO5HCDAe8zW27qxzb',
@@ -150,8 +150,8 @@ class Search extends Component{
                      <li></li>
                      <li></li>
                    </ul>
-                    <a id="left" onClick={this.leftClick} href='#'></a>
-                    <a id="right" onClick={this.rightClick} href='#'></a>
+                    <a id="left" onClick={this.leftClick}></a>
+                    <a id="right" onClick={this.rightClick}></a>
 
                </div>
              {booksearch}
