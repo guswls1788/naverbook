@@ -32,8 +32,10 @@ class App extends Component{
       if(searchText===''){
         alert("no")
       }else{
-        window.location.hash="#/search?bookName="+searchText+"&display="+number
+        // window.location.hash="#/search?bookName="+searchText+"&display="+number
         // window.location.href="/"
+    window.location.hash = "#/search";
+
       }
     }
     // AlllSearch=(ttl,author,company,isbn,mockcha,theme,category,StartYear,StartDay,LastYear,LastDay)=>{
