@@ -32,9 +32,9 @@ class App extends Component{
       if(searchText===''){
         alert("no")
       }else{
-        // window.location.hash="#/search?bookName="+searchText+"&display="+number
+        window.location.hash="#/search?bookName="+searchText+"&display="+number
         // window.location.href="/"
-    window.location.hash = "#/search";
+    // window.location.hash = "#/search";
 
       }
     }
