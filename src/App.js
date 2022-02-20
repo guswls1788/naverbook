@@ -32,7 +32,7 @@ class App extends Component{
       if(searchText===''){
         alert("no")
       }else{
-        window.location.href="/#/search?bookName="+searchText+"&display="+number
+        window.location.href="#/search?bookName="+searchText+"&display="+number
         // window.location.href="/"
       }
     }
