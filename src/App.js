@@ -28,23 +28,12 @@ class App extends Component{
   }
     searchClick=()=>{
       const {searchText,number}=this.state
-      // window.location.href="/search?bookName="+searchText+"&display="+number
       if(searchText===''){
         alert("no")
       }else{
         window.location.hash="#/search?bookName="+searchText+"&display="+number
-        // window.location.href="/"
-    // window.location.hash = "#/search";
-
       }
     }
-    // AlllSearch=(ttl,author,company,isbn,mockcha,theme,category,StartYear,StartDay,LastYear,LastDay)=>{
-    //   window.location.href="/search?bookName="+ttl+"&author="+author+"&company="+company+"&isbn="+isbn+
-    //   "&mockcha="+mockcha+"&theme"+theme+"&category="+category+"&StartDay="+StartYear+StartDay+"&LastDay="+LastYear+LastDay+
-    //   "&display="+this.state.number
-    //   this.getdetail(ttl,author,company,isbn,mockcha,theme,category,StartYear,StartDay,LastYear,LastDay)
-    // }
- 
     search=(evt)=>{
       if(evt.key==="Enter"){
         this.searchClick()
