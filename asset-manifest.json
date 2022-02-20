@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.7eb7c310.css",
-    "main.js": "/static/js/main.5def48c2.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "main.7eb7c310.css.map": "/static/css/main.7eb7c310.css.map",
-    "main.5def48c2.js.map": "/static/js/main.5def48c2.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/naverbook/static/css/main.4fc729df.css",
+    "main.js": "/naverbook/static/js/main.ed0f6d2d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/naverbook/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/naverbook/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/naverbook/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/naverbook/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/naverbook/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/naverbook/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/naverbook/index.html",
+    "main.4fc729df.css.map": "/naverbook/static/css/main.4fc729df.css.map",
+    "main.ed0f6d2d.js.map": "/naverbook/static/js/main.ed0f6d2d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/naverbook/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7eb7c310.css",
-    "static/js/main.5def48c2.js"
+    "static/css/main.4fc729df.css",
+    "static/js/main.ed0f6d2d.js"
   ]
 }
